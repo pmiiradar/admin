@@ -1,5 +1,5 @@
 name = "app"
-type = "javascript"
+type = "webpack"
 account_id = "293f9bd628e94a4e2127d38ea25c8c92"
 workers_dev = true
 
