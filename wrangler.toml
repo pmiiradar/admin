@@ -1,0 +1,13 @@
+name = "app"
+type = "javascript"
+account_id = "293f9bd628e94a4e2127d38ea25c8c92"
+workers_dev = true
+
+[env.production]
+workers_dev = false
+route = "app.pmiiradar.org/*"
+zone_id = "93159bc7f83beb227bff1f1af4fbcc0f"
+
+[site]
+bucket = "./"
+entry-point = "workers-site"
